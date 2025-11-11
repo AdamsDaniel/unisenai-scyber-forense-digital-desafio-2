@@ -1,4 +1,4 @@
-# FD_GR03 — Vazamento Silencioso via Sincronizador Não‑Autorizado
+# FD_GR02 — Vazamento Silencioso via Sincronizador Não‑Autorizado
 > **Pacote didático completo** para atividade prática de Forense Digital (host + rede + nuvem) **com Docker**.
 
 ## 0) Enunciado (Cenário) Completo
