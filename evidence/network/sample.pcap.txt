@@ -1,1 +1,35 @@
-2025-08-29T02:15:05-03:00 HTTP2 POST /upload uploader-edge.io
+2025-08-28T02:10:16-03:00 | DNS | Query | cloudbox-cdn.net | A | 192.168.1.105 -> 8.8.8.8
+2025-08-28T02:10:17-03:00 | DNS | Response | cloudbox-cdn.net | A | 185.224.138.45 | 8.8.8.8 -> 192.168.1.105
+2025-08-28T02:10:18-03:00 | TLS | Handshake | 192.168.1.105:54321 -> 185.224.138.45:443 | SNI: cloudbox-cdn.net
+2025-08-28T02:10:19-03:00 | HTTPS | GET | /tools/cbxsync.exe | cloudbox-cdn.net | 192.168.1.105 -> 185.224.138.45
+2025-08-28T02:10:35-03:00 | TCP | Data Transfer | 192.168.1.105:54321 <- 185.224.138.45:443 | Size: 2458624 bytes
+2025-08-28T02:14:05-03:00 | DNS | Query | uploader-edge.io | A | 192.168.1.105 -> 8.8.8.8
+2025-08-28T02:14:06-03:00 | DNS | Response | uploader-edge.io | A | 172.67.192.88 | 8.8.8.8 -> 192.168.1.105
+2025-08-28T02:14:07-03:00 | TLS | Handshake | 192.168.1.105:54890 -> 172.67.192.88:443 | SNI: uploader-edge.io
+2025-08-28T02:14:10-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-28T02:14:15-03:00 | HTTP2 | Data | Upload | Size: 1254880 bytes | Content-Type: application/octet-stream
+2025-08-28T02:14:52-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io
+2025-08-28T02:15:05-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-28T02:15:10-03:00 | HTTP2 | Data | Upload | Size: 987456 bytes | Content-Type: application/pdf
+2025-08-28T02:15:38-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io
+2025-08-29T02:01:45-03:00 | DNS | Query | uploader-edge.io | A | 192.168.1.105 -> 8.8.8.8
+2025-08-29T02:01:46-03:00 | DNS | Response | uploader-edge.io | A | 172.67.192.88 | 8.8.8.8 -> 192.168.1.105
+2025-08-29T02:01:48-03:00 | TLS | Handshake | 192.168.1.105:55234 -> 172.67.192.88:443 | SNI: uploader-edge.io
+2025-08-29T02:02:15-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-29T02:02:20-03:00 | HTTP2 | Data | Upload | Size: 1254880 bytes | Content-Type: application/octet-stream
+2025-08-29T02:03:01-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io
+2025-08-29T02:03:25-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-29T02:03:30-03:00 | HTTP2 | Data | Upload | Size: 987456 bytes | Content-Type: application/pdf
+2025-08-29T02:04:15-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io
+2025-08-30T02:02:30-03:00 | DNS | Query | uploader-edge.io | A | 192.168.1.105 -> 8.8.8.8
+2025-08-30T02:02:31-03:00 | DNS | Response | uploader-edge.io | A | 172.67.192.88 | 8.8.8.8 -> 192.168.1.105
+2025-08-30T02:02:33-03:00 | TLS | Handshake | 192.168.1.105:55678 -> 172.67.192.88:443 | SNI: uploader-edge.io
+2025-08-30T02:03:50-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-30T02:03:55-03:00 | HTTP2 | Data | Upload | Size: 2145788 bytes | Content-Type: application/octet-stream
+2025-08-30T02:05:20-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io
+2025-08-30T02:05:45-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-30T02:05:50-03:00 | HTTP2 | Data | Upload | Size: 1876543 bytes | Content-Type: application/octet-stream
+2025-08-30T02:07:15-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io
+2025-08-30T02:07:40-03:00 | HTTP2 | POST | /upload | uploader-edge.io | 192.168.1.105 -> 172.67.192.88
+2025-08-30T02:07:45-03:00 | HTTP2 | Data | Upload | Size: 765432 bytes | Content-Type: application/pdf
+2025-08-30T02:08:30-03:00 | HTTP2 | Response | Status: 200 OK | uploader-edge.io

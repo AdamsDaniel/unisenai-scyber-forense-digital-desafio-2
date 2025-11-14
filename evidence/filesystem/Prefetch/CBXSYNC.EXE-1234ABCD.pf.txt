@@ -1,0 +1,12 @@
+File: CBXSYNC.EXE-1234ABCD.pf
+Executable: C:\Users\m.junior\Downloads\cbxsync.exe
+First Execution: 2025-08-28T02:11:02-03:00
+Last Execution: 2025-08-30T02:00:50-03:00
+Run Count: 3
+Files Referenced:
+  - C:\HealthData\Exports\patients_2025-08.csv
+  - C:\HealthData\Exports\consultations_2025-08.pdf
+  - C:\HealthData\Exports\medical_records_batch_001.csv
+  - C:\HealthData\Exports\medical_records_batch_002.csv
+  - C:\Windows\System32\WININET.DLL
+  - C:\Windows\System32\WS2_32.DLL

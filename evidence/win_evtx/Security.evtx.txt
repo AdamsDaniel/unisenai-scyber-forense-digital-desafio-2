@@ -1,1 +1,21 @@
-2025-08-28T02:09:41-03:00 | 4624 | Logon | m.junior
+2025-08-28T02:09:41-03:00 | 4624 | Logon Success | Account: m.junior | Logon Type: 2 (Interactive) | Workstation: WIN11-CLIN-07
+2025-08-28T02:10:15-03:00 | 4688 | Process Creation | Process: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Parent: explorer.exe | User: m.junior
+2025-08-28T02:11:02-03:00 | 4688 | Process Creation | Process: C:\Users\m.junior\Downloads\cbxsync.exe | Parent: powershell.exe | User: m.junior
+2025-08-28T02:12:30-03:00 | 4663 | Object Access | Object: C:\HealthData\Exports\patients_2025-08.csv | Access: READ_DATA | User: m.junior
+2025-08-28T02:13:45-03:00 | 4663 | Object Access | Object: C:\HealthData\Exports\consultations_2025-08.pdf | Access: READ_DATA | User: m.junior
+2025-08-28T02:25:18-03:00 | 4688 | Process Creation | Process: C:\Windows\System32\schtasks.exe | CommandLine: /Create /TN DataSync /TR C:\Users\m.junior\Downloads\cbxsync.exe /SC DAILY /ST 02:00 | User: m.junior
+2025-08-28T02:28:50-03:00 | 4634 | Logoff | Account: m.junior | Logon Type: 2
+2025-08-29T02:00:12-03:00 | 4624 | Logon Success | Account: SYSTEM | Logon Type: 5 (Service) | Workstation: WIN11-CLIN-07
+2025-08-29T02:00:45-03:00 | 4688 | Process Creation | Process: C:\Users\m.junior\Downloads\cbxsync.exe | Parent: svchost.exe | User: m.junior
+2025-08-29T02:01:20-03:00 | 4663 | Object Access | Object: C:\HealthData\Exports\patients_2025-08.csv | Access: READ_DATA | User: m.junior
+2025-08-29T02:02:10-03:00 | 4663 | Object Access | Object: C:\HealthData\Exports\consultations_2025-08.pdf | Access: READ_DATA | User: m.junior
+2025-08-29T02:15:30-03:00 | 4634 | Logoff | Account: SYSTEM | Logon Type: 5
+2025-08-29T23:45:10-03:00 | 4624 | Logon Success | Account: m.junior | Logon Type: 2 (Interactive) | Workstation: WIN11-CLIN-07
+2025-08-29T23:47:22-03:00 | 4688 | Process Creation | Process: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Parent: explorer.exe | User: m.junior
+2025-08-29T23:48:05-03:00 | 1102 | Security Log Cleared | User: m.junior
+2025-08-29T23:55:30-03:00 | 4634 | Logoff | Account: m.junior | Logon Type: 2
+2025-08-30T02:00:15-03:00 | 4624 | Logon Success | Account: SYSTEM | Logon Type: 5 (Service) | Workstation: WIN11-CLIN-07
+2025-08-30T02:00:50-03:00 | 4688 | Process Creation | Process: C:\Users\m.junior\Downloads\cbxsync.exe | Parent: svchost.exe | User: m.junior
+2025-08-30T02:01:35-03:00 | 4663 | Object Access | Object: C:\HealthData\Exports\medical_records_batch_001.csv | Access: READ_DATA | User: m.junior
+2025-08-30T02:02:15-03:00 | 4663 | Object Access | Object: C:\HealthData\Exports\medical_records_batch_002.csv | Access: READ_DATA | User: m.junior
+2025-08-30T02:18:45-03:00 | 4634 | Logoff | Account: SYSTEM | Logon Type: 5

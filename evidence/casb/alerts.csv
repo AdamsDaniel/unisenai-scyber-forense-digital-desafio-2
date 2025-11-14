@@ -1,1 +1,9 @@
 timestamp_utc-3,user,app,action,dest_domain,policy,severity,details
+2025-08-28T02:10:18-03:00,m.junior,Unknown Browser,Download,cloudbox-cdn.net,Shadow IT - Unapproved Service,High,Download from unrecognized cloud service
+2025-08-28T02:14:10-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,Large file upload to unauthorized cloud storage
+2025-08-28T02:15:05-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,PDF upload detected - potential PII exposure
+2025-08-29T02:02:15-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,Automated upload during non-business hours
+2025-08-29T02:03:25-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,Multiple uploads to same destination
+2025-08-30T02:03:50-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,Large CSV upload - healthcare data suspected
+2025-08-30T02:05:45-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,Bulk data transfer pattern detected
+2025-08-30T02:07:40-03:00,m.junior,CloudBox Sync,Upload,uploader-edge.io,Data Exfiltration Risk,Critical,PDF medical records upload detected

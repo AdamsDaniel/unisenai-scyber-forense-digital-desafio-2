@@ -1,0 +1,11 @@
+Application: cbxsync.exe
+Path: C:\Users\m.junior\Downloads\cbxsync.exe
+SHA-256: a3f5d8c2e1b4f6a9d7c3e2b5f8a1d4c7e9b2f5a8c1d3e6b9f2a5d8c1e4b7f9a2
+File Size: 2458624 bytes
+Product Name: CloudBox Sync Client
+Company: Unknown
+File Description: Portable Cloud Synchronization Tool
+File Version: 3.2.1.0
+First Seen: 2025-08-28T02:11:02-03:00
+Last Modified: 2025-08-15T14:32:18-03:00
+Digital Signature: None

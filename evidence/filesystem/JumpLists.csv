@@ -1,0 +1,4 @@
+Timestamp,User,Application,TargetPath
+2025-08-28T02:10:45-03:00,m.junior,explorer.exe,C:\HealthData\Exports
+2025-08-28T02:11:02-03:00,m.junior,powershell.exe,C:\Users\m.junior\Downloads\cbxsync.exe
+2025-08-29T23:47:22-03:00,m.junior,powershell.exe,C:\Windows\System32\winevt\Logs

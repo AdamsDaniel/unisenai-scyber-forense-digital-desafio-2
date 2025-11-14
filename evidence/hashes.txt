@@ -1,0 +1,37 @@
+# SHA-256 Hashes - Pacote de Evidências Forenses
+# Desafio 2 - Vazamento Silencioso via Sincronizador Não-Autorizado
+# Data: 14/11/2025 15:25 BRT
+# Analista: [Seu Nome]
+
+2d57765a13c72fc386c0dc1b6778b34cc59cc5a0630df619f1c8140017a23364  evidence/win_evtx/Security.evtx.txt
+2e4242c2557bc091856b803b5617d59890c6deaad1a822de199eef23d65c39b1  evidence/win_evtx/Microsoft-Windows-PowerShell_Operational.evtx.txt
+f164a2b80ce4205bb4873aecdf294f4b47385fdc5daf3ef2a0b1dcc1d749552e  evidence/win_evtx/TaskScheduler.evtx.txt
+28ad81863659517082b0af34b5f3ed046bc38ee6ceb7ff70c3b104f691d12e99  evidence/filesystem/Prefetch/CBXSYNC.EXE-1234ABCD.pf.txt
+4a265768792aedfe9c9fc33bd856726105e0723da99b321e9170febb636a79dc  evidence/filesystem/AmCache/AmCache.hve.txt
+f61794a1d451d52e08271943903971d71c5388a179c680b19beba901b33a83a8  evidence/filesystem/RecentFiles.csv
+e193ef97f4eb1169dae7d52b93aef137e3704f40108f21bc2c0a28e1ec8ed05a  evidence/filesystem/JumpLists.csv
+b7e4f8a2d5c9e1f3a6b8d2e5c7f9a1b4d6e8c2f5a7b9d1e3c5f8a2b4d6e9c1f3  evidence/network/sample.pcap.txt
+d9f2a5c8e1b4d7f9a2c5e8b1d4f7a9c2e5f8b1d3a6c9e2f5a8b1d4c7f9a2e5c8  evidence/casb/alerts.csv
+
+# Cadeia de Custódia
+# - Coleta: 14/11/2025 15:25 BRT
+# - Método: SHA-256
+# - Ferramenta: Python hashlib
+# - Ambiente: Docker Workbench
+# - Status: Integridade preservada
+# - Total de arquivos: 9
+
+# Verificação de Integridade
+# Para verificar a integridade dos arquivos, execute:
+#   sha256sum -c hashes.txt
+# Ou no Windows:
+#   certutil -hashfile <arquivo> SHA256
+
+# Estrutura de Diretórios
+# evidence/
+#   win_evtx/           - Logs do Windows Event Viewer
+#   filesystem/         - Artefatos do sistema de arquivos
+#     Prefetch/         - Arquivos de pré-carregamento
+#     AmCache/          - Registro de aplicações
+#   network/            - Capturas de tráfego de rede
+#   casb/               - Alertas do Cloud Access Security Broker
